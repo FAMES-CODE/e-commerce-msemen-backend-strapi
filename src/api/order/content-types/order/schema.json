@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    },
+    "Firstname": {
+      "type": "string"
+    },
+    "Lastname": {
+      "type": "string"
+    },
+    "total_price": {
+      "type": "biginteger"
+    },
+    "confirmed": {
+      "type": "boolean",
+      "default": false
+    },
+    "delivred": {
+      "type": "boolean",
+      "default": false
+    },
+    "delivery_adress": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Phone_number": {
+      "type": "biginteger"
+    }
+  }
+}
