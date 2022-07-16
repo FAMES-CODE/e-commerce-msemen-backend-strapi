@@ -46,6 +46,11 @@
     "recap": {
       "type": "richtext",
       "private": true
+    },
+    "oid": {
+      "type": "uid",
+      "maxLength": 36,
+      "minLength": 1
     }
   }
 }
