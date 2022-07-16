@@ -62,12 +62,6 @@
     },
     "Size": {
       "type": "string"
-    },
-    "PID": {
-      "type": "uid",
-      "minLength": 1,
-      "maxLength": 3,
-      "targetField": "title"
     }
   }
 }
